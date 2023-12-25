@@ -1,0 +1,143 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:hsl(235, 18%, 26%)
+}
+.box{
+    width: 700px;
+    height:500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.image{
+    margin-right:-30px;
+    margin-top: 20px;
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 70px 20px 0px 0px;
+}
+.description{
+    width: 350px;
+    font-size: 14px;
+    position: absolute;
+    top: 120px;
+}
+.icon1{
+    position: absolute;
+    top: 200px;
+}
+.icon2{
+    position: absolute;
+    top: 250px;
+}
+.icon3{
+    position: absolute;
+    top: 300px;
+}
+.des1{
+    position: absolute;
+    top: 185px;
+    left: 45px;
+}
+.des2{
+    transform: translate(22px, 115px);
+}
+.des3{
+    transform: translate(22px, 132px);
+}
+.email{
+    font-size: 14px;
+    transform: translate(0px,140px);
+}
+.email1{
+    transform: translate(0px,140px);
+    width: 300px;
+    height:40px;
+    border-radius: 4px;
+}
+.email1:hover{
+    border: 2px solid black;    
+}
+hr{
+    visibility: hidden;
+}
+.box button{
+    background-color:hsl(235, 18%, 26%);
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 440px;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.box button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+.vaild{
+    font-size: 14px;
+    position: absolute;
+    top: 330px;
+    left: 205px;
+    color: hsl(4, 100%, 67%);
+    display: none;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    display: none;
+}
+.card svg{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.success{
+    font-size: 45px;
+    font-weight: bold;
+    transform: translate(55px,70px);
+}
+.success1{
+    transform: translate(55px,40px);
+    width: 300px;
+    word-wrap: break-word;;
+}
+.card button{
+    background-color:hsl(235, 18%, 26%);
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    top: 320px;
+    left: 35px;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 3px  black;
+}
+.card button:hover{
+    background-color: hsl(4, 100%, 67%);
+}
